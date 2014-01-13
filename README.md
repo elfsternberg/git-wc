@@ -2,7 +2,7 @@
 
 This is a simple extension to GIT that reports the word count
 difference between any two commits.  It accepts any standard range
-arguments, such as HEAD^..HEAD or <path>..<path>, and tells you how
+arguments, such as HEAD^..HEAD or &lt;path&gt;..&lt;path&gt;, and tells you how
 many words you added since your last commit, minus how many words you
 have removed.
 
