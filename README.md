@@ -11,7 +11,7 @@ working tree and the last commit.
 
 I write stories as well as code, I use Markdown as my writing
 environment of choice, I commit to a GIT repository regurlarly, and
-this is a stimple and straightforward way of tracking my daily
+this is a simple and straightforward way of tracking my daily
 contributions.
 
 The LICENSE is standard MIT style.  See the LICENSE file for details.
