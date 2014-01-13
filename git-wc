@@ -1,0 +1,5 @@
+#!/bin/bash
+REM=`git diff --word-diff=porcelain -U $* | grep '^-' | sed 's/^-//' | wc -w`
+ADD=`git diff --word-diff=porcelain -U $* | grep '^+' | sed 's/^+//' | wc -w`
+DIF=`expr $ADD - $REM`
+echo "Word count: $DIF"
